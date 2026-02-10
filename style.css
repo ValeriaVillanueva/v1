@@ -1,0 +1,117 @@
+/* =========================
+   BODY
+   ========================= */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+
+    /* fondo degradado elegante */
+    background: linear-gradient(135deg, #012E40, #023859);
+}
+
+
+
+/* =========================
+   CONTENEDOR
+   ========================= */
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+/* =========================
+   TARJETA PRINCIPAL
+   ========================= */
+#text-container {
+    background: #C09367; /* beige suave */
+    padding: 30px;
+    border-radius: 22px;
+
+    box-shadow: 0 15px 40px rgba(0,0,0,0.35);
+
+    width: 340px;
+}
+
+
+
+/* =========================
+   IMAGEN
+   ========================= */
+#image-container img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 18px;
+    margin-bottom: 15px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+
+
+/* =========================
+   TITULO
+   ========================= */
+#question {
+    font-family: 'Sacramento';
+    font-size: 52px;
+
+    color: #012E40; /* azul oscuro */
+}
+
+
+
+/* =========================
+   BOTONES
+   ========================= */
+#options {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 22px;
+    margin: 8px;
+    font-size: 24px;
+    font-family: 'Sacramento';
+
+    background-color: #9C6B3F; /* café */
+    color: white;
+
+    border: none;
+    border-radius: 14px;
+
+    cursor: pointer;
+
+    transition: 0.25s;
+}
+
+/* efecto hover */
+button:hover {
+    background-color: #0A4A6B; /* azul petróleo */
+    transform: scale(1.08);
+}
+
+
+
+/* =========================
+   DESCRIPCIÓN
+   ========================= */
+#description {
+    margin-top: 15px;
+    font-size: 17px;
+    color: #012E40;
+}
+
+
+
+/* =========================
+   BOTÓN VOLVER
+   ========================= */
+#backBtn {
+    background-color: #023859;
+}

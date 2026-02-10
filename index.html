@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis recuerdos favoritos contigo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap">
+    <link rel="stylesheet" href="style.css"> <!-- Link to external stylesheet -->
+</head>
+<body>
+    <div id="container">
+        <div id="image-container"></div> <!-- Container for displaying images -->
+        <div id="text-container">
+            <div id="question">Top 3 momentos juntos</div> <!-- Question -->
+            <div id="options">
+                <button id="1-button" onclick="selectOption('Recuerdo #1')">uno</button> <!-- Yes button -->
+                <button id="2-button" onclick="selectOption('Recuerdo #2')">dos</button> <!-- No button -->
+                <button id="3-button" onclick="selectOption('Recuerdo #3')">tres</button>
+            </div>
+            <p id="description"></p>
+            <button id="backBtn" onclick="goBack()" style="display:none;">Volver</button>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
